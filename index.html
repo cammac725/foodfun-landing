@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="index.js" async></script>
+    <title> Foodie-Fun </title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+
+</head>
+
+<body>
+    <header>
+        <div class='header-H'>
+            <h1>Foodie Fun</h1>
+        </div>
+
+        
+
+        <nav class="mobile-nav">
+
+
+            <div class="mobile-navigation">
+              <a class='home' href='#'>Home</a>
+            </div>
+            <div class="mobile-navigation">
+              <a href='https://foodie-fun-react-2.netlify.com/'>Log In</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class='container'>
+        <div class='main-content'>
+            <div class='top-cont'>
+                <h2>Smarter Meal Tracking Starts Here</h2>
+                <div class="blurb">
+                  <p>
+                    You've been there. Staring at the menu of your favorite restaurant, trying to remember what you had last time. Foodie Fun lets you keep track of what you ate last time. You can keep track of your favorite items, and what you thought about them. That way you can try everything on the menu without trying the same thing twice. So log in or sign up. It's free!
+                  </p>
+                </div>
+
+                <a href='https://foodie-fun-react-2.netlify.com/'><button id='btn'> Log In</button></a>
+            </div>
+        </div>
+
+        <div class="cards-container">
+
+            <!-- FOODCARD COMPONENTS -->
+            <div class="card" data-tab="vegan" style="background: linear-gradient(to bottom, rgba(255,225,255,0.5), rgba(255, 255, 255, 0.2)), url(./assets/broccoli-sprouts.jpg); background-size: cover; background-position: center center;">
+                <div class="headline">Broccoli sprout sulforaphane boost</div>
+                <div class="author">
+                    <span>Green farms</span>
+                </div>
+            </div>
+
+            <div class="card" data-tab="glutenfree" style="background: linear-gradient(to bottom, rgba(255,225,255,0.4), rgba(255, 255, 255, 0.2)), url(./assets/cakeisalie.jpeg); background-size: cover; background-position: center center;">
+                <div class="headline">Gluten-free earth day cake</div>
+                <div class="author">
+                    <span>Keto family bakery</span>
+                </div>
+            </div>
+
+            <div class="card" data-tab="nyc" style="background: linear-gradient(to bottom, rgba(255,225,255,0.5), rgba(255, 255, 255, 0.2)), url(./assets/pizzapizza.jpeg); background-size: cover; background-position: center center;">
+                <div class="headline">Clean NYC italian pizza</div>
+                <div class="author">
+                    <span>Vinny's rat-free pizza shoppe</span>
+                </div>
+            </div>
+
+            <div class="card" data-tab="toast" style="background: linear-gradient(to bottom, rgba(255,225,255,0.6), rgba(255, 255, 255, 0.3)), url(./assets/AvocadoToast.jpeg); background-size: cover; background-position: center center;">
+                <div class="headline">Xian famous avocado toast</div>
+                <div class="author">
+                    <span>Xi'an famous foods</span>
+                </div>
+            </div>
+
+            <div class="card" data-tab="mexican" style="background: linear-gradient(to bottom, rgba(255,225,255,0.6), rgba(255, 255, 255, 0.3)), url(./assets/burrito.jpeg); background-size: cover; background-position: center center;">
+                <div class="headline">Abuela's burrito </div>
+                <div class="author">
+                    <span>Abuela's Mexican cusine</span>
+                </div>
+            </div>
+
+            <div class="card" data-tab="farmer" style="background-image: linear-gradient(to bottom, rgba(255,225,255,0.6), rgba(255, 255, 255, 0.3)), url(./assets/figs-1620590_1280.jpg); background-size: cover; background-position: center center;">
+                <div class="headline">Organic russian farm figs</div>
+                <div class="author">
+                    <span>Lenin family farms</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <footer>
+        <h1>About Us</h1>
+        <div class='about-us'>
+
+            <div class="team-member">
+                <a href="https://github.com/ceejaay"><img src="./assets/profile-chad.jpeg"/></a>
+                <div class = "member1">
+                  <h2><a href="https://github.com/ceejaay" style ="color: black; text-shadow: 0px 1px 2px gray;">Chad Jemmett</a></h2>
+                    <p style="font-weight:200;">Team Lead</p>
+                    <p>
+                      I am a Full Stack Web Dev based in Utah. My skills include React, Node, Python, Ruby and Javascript. In my spare time I like to bake bread and hang out with my family.
+                    </p>
+                </div>
+            </div>
+            <div class="team-member">
+                <a href="https://github.com/cammac725"><img src="./assets/profile-cam.jpeg"/></a>
+                <div class = "member2">
+                  <h2><a href="https://github.com/cammac725" style ="color: black; text-shadow: 0px 1px 2px gray;">Cameron Macdonald</a></h2>
+                    <p style="font-weight:200;">Frontend Architect</p>
+                    <p>
+                     I am a Full Stack Web Developer from the Pacific Northwest that loves working in HTML, CSS, JS, and React. In my spare time I enjoy road cycling and golf.</p>
+                </div>   
+            </div>
+
+            <div class="team-member">
+                <a href="https://github.com/Au-Jones"><img src="./assets/profile-aj.jpeg"/></a>
+                <div class = "member3">
+                  <h2><a href="https://github.com/Au-Jones" style ="color: black; text-shadow: 0px 1px 2px gray;">Autumn Jones</a></h2>
+                    <p style="font-weight:200;">User Interface/Marketing Page</p>
+                    <p>
+                      I am Full Stack Web Developer from the East Coast that enjoys working in HTML,CSS and JavaScript. In my spare time I like drawing and enjoying the outdoors.
+
+                    </p>
+                </div>   
+            </div>
+
+            <div class="team-member">
+                <a href="https://github.com/HeyClos"><img src="./assets/profile-carlos.jpeg"/></a>
+                <div class = "member4">
+                  <h2><a href="https://github.com/HeyClos" style ="color: black; text-shadow: 0px 1px 2px gray;">Carlos de Santiago</a></h2>
+                    <p style="font-weight:200;">User Interface/Marketing Page</p>
+                    <p>
+                       I am a Full Stack Web Developer living in Las Vegas, working mostly with HTML,CSS and Javascript. I enjoy learning new tools and coding languages on my spare time!
+                    </p>
+                </div>   
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
